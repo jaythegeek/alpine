@@ -11,3 +11,112 @@
     background: #000;
     color: #fff;
 }
+
+.logo-fade-container {
+    position: relative;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        width: 150px;
+        margin-left: 5rem;
+        margin-top: .7rem;;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-brand img {
+        width: 300px;
+    }
+}
+
+//   @media (min-width: 992px) {
+//     .navbar-brand img {
+//       width: 960px;
+//     }
+//   }
+
+//   @media (min-width: 1200px) {
+//     .navbar-brand img {
+//       width: 1140px;
+//     }
+//   }
+
+.fadein {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    margin: auto;
+}
+
+.fadein img {
+    position: absolute;
+    left: -65px;
+    top: -15px;
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 8s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+}
+
+@-webkit-keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    33% {
+        opacity: 1;
+    }
+
+    53% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    33% {
+        opacity: 1;
+    }
+
+    53% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#logo-1 {
+    // background-color: lightblue;
+    // -webkit-animation-delay: -2s;
+}
+
+#logo-2 {
+    -webkit-animation-delay: -4s;
+    top: -20px;
+    // background-color: yellow;
+}
+
+#logo-3 {
+    -webkit-animation-delay: -4s;
+}

@@ -1,7 +1,14 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-black shadow-sm">
-    <div class="container py-2">
+    <div class="container py-4">
         <a class="navbar-brand" href="{{ url('/') }}">
-            <img src="/images/white-red.png" alt="Alpine Elements Careers" width="300">
+            <div class="logo-fade-container">
+                <div class="fadein">
+
+                    <img id="logo-2" src="/images/ocean-white.png" alt="Alpine Elements Careers" >
+                    <img id="logo-1" src="/images/white-red.png" alt="Alpine Elements Careers" >
+                </div>
+            </div>
+
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -38,8 +45,8 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/beach-jobs">Blog</a>
                 </li>
-                
-               
+
+
                 {{-- @if (Route::has('register'))
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
