@@ -25,36 +25,36 @@
             <ul class="navbar-nav ml-auto">
                 <!-- Authentication Links -->
                 @guest
-                <li class="nav-item">
-                    <a class="nav-link" href="/ski-jobs">Winter Ski Jobs</a>
+                <li class="nav-item mr-3">
+                    <a class="nav-link text-white text-uppercase" href="/ski-jobs">Winter Ski Jobs</a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="/beach-jobs">Beach Club Jobs</a>
+                <li class="nav-item mr-3">
+                    <a class="nav-link text-white text-uppercase" href="/beach-club-jobs">Beach Club Jobs</a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="/beach-jobs">Summer Alps Jobs</a>
+                <li class="nav-item mr-3">
+                    <a class="nav-link text-white text-uppercase" href="/summer-jobs">Summer Alps Jobs</a>
                 </li>
 
 
-                <li class="nav-item">
-                    <a class="nav-link" href="/beach-jobs">Office Jobs</a>
+                <li class="nav-item mr-3">
+                    <a class="nav-link text-white text-uppercase" href="/office-jobs">Office Jobs</a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="/beach-jobs">Blog</a>
+                <li class="nav-item mr-3">
+                    <a class="nav-link text-white text-uppercase" href="/login">Blog</a>
                 </li>
 
 
                 {{-- @if (Route::has('register'))
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                <li class="nav-item mr-3">
+                    <a class="nav-link text-white text-uppercase" href="{{ route('register') }}">{{ __('Register') }}</a>
                 </li>
                 @endif --}}
                 @else
-                <li class="nav-item dropdown">
-                    <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
+                <li class="nav-item dropdown mr-3">
+                    <a id="navbarDropdown" class="nav-link text-white text-uppercase dropdown-toggle" href="#" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                         {{ Auth::user()->name }} <span class="caret"></span>
                     </a>
