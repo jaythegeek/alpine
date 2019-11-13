@@ -4,8 +4,8 @@
             <div class="logo-fade-container">
                 <div class="fadein">
 
-                    <img id="logo-2" src="/images/ocean-white.png" alt="Alpine Elements Careers" >
-                    <img id="logo-1" src="/images/white-red.png" alt="Alpine Elements Careers" >
+                    <img id="logo-2" src="/images/ocean-white.png" alt="Alpine Elements Careers">
+                    <img id="logo-1" src="/images/white-red.png" alt="Alpine Elements Careers">
                 </div>
             </div>
 
@@ -38,6 +38,11 @@
                 </li>
 
 
+
+                <li class="nav-item mr-3">
+                    <a class="nav-link text-white text-uppercase" href="/yacht-jobs">Yacht Jobs</a>
+                </li>
+
                 <li class="nav-item mr-3">
                     <a class="nav-link text-white text-uppercase" href="/office-jobs">Office Jobs</a>
                 </li>
@@ -54,8 +59,8 @@
                 @endif --}}
                 @else
                 <li class="nav-item dropdown mr-3">
-                    <a id="navbarDropdown" class="nav-link text-white text-uppercase dropdown-toggle" href="#" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                    <a id="navbarDropdown" class="nav-link text-white text-uppercase dropdown-toggle" href="#"
+                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                         {{ Auth::user()->name }} <span class="caret"></span>
                     </a>
 

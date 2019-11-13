@@ -34,6 +34,10 @@ Route::get('/summer-jobs', function () {
     return view('pages.summer-jobs');
 });
 
+Route::get('/yacht-jobs', function () {
+    return view('pages.yacht-jobs');
+});
+
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/fetch-jobs', 'HomeController@fetchJobs');

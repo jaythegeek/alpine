@@ -42,5 +42,5 @@
         </div>
     </div>
 </div>
-@include('layouts.job-section')
+@include('layouts.job-page-links')
 @endsection

@@ -1,5 +1,5 @@
 @extends('layouts.app')
 
 @section('content')
-<beach-club></beach-club>
+<yacht></yacht>
 @endsection

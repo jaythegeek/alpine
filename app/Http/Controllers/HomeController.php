@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use GuzzleHttp\Client;
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -13,7 +15,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        $this->middleware('auth')->except(['fetchJobs']);
     }
 
     /**
@@ -25,4 +27,24 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    public function fetchJobs(Request $request, Client $guzzleClient)
+    {
+        $response = $guzzleClient->request('GET', 'https://alpine-elements.workable.com/spi/v3/jobs?state=published&include_fields=description,full_description', [
+            'headers' => [
+                'Accept' => 'application/json',
+                'Authorization' => 'Bearer ' . config('services.workable.key'),
+            ],
+            'verify' => false,
+        ]);
+        $data = json_decode($response->getBody());
+        $jobs = new Collection;
+        foreach ($data->jobs as $d) {
+            if ($d->code == $request->get('type')) {
+                $jobs->push($d);
+            }
+        }
+        return $jobs;
+    }
+
 }

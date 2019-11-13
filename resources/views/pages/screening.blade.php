@@ -107,7 +107,7 @@
         </div>
     </div>
 </div>
-        @include('layouts.job-section')
+        @include('layouts.job-page-links')
 <div class="container">
         <div class="row mt-5">
             <div class="col text-center">
