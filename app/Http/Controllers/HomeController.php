@@ -30,7 +30,9 @@ class HomeController extends Controller
 
     public function fetchJobs(Request $request, Client $guzzleClient)
     {
-        $response = $guzzleClient->request('GET', 'https://alpine-elements.workable.com/spi/v3/jobs?state=published&include_fields=description,full_description', [
+        $url = 'https://alpine-elements.workable.com/spi/v3/jobs?state=published&include_fields=description,full_description';
+
+        $response = $guzzleClient->request('GET', $url, [
             'headers' => [
                 'Accept' => 'application/json',
                 'Authorization' => 'Bearer ' . config('services.workable.key'),
@@ -40,7 +42,11 @@ class HomeController extends Controller
         $data = json_decode($response->getBody());
         $jobs = new Collection;
         foreach ($data->jobs as $d) {
-            if ($d->code == $request->get('type')) {
+            if ($request->get('type') != 'all') {
+                if ($d->code == $request->get('type')) {
+                    $jobs->push($d);
+                }
+            } else {
                 $jobs->push($d);
             }
         }

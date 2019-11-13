@@ -1,7 +1,7 @@
 <footer class="footer bg-primary mt-auto">
     <div class="container py-5">
         <div class="row">
-            <div class="col">
+            <div class="col-md-3">
                 <ul class="list-unstyled">
                     <li class="mb-2">
                         <a class="text-white font-weight-bold"
@@ -13,7 +13,7 @@
                 </ul>
             </div>
 
-            <div class="col">
+            <div class="col-md-3">
                 <ul class="list-unstyled">
                     <li class="mb-2">
                         <a class="text-white font-weight-bold" href="{{ route('login') }}">Book Assessment Day</a>
@@ -29,7 +29,7 @@
                 </ul>
             </div>
 
-            <div class="col text-white">
+            <div class="col-md-3 text-white">
                 <p>CONTACT HR & RECRUITMENT</p>
                 <p>Alpine Elements Group Ltd, York Court, Alt Grove, Wimbledon, SW19 4DZ</p>
 

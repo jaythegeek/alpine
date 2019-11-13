@@ -1829,6 +1829,80 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/AllJobs.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/AllJobs.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _partials_JobPageLinks__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./partials/JobPageLinks */ "./resources/js/pages/partials/JobPageLinks.vue");
+/* harmony import */ var _partials_JobsContainer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./partials/JobsContainer */ "./resources/js/pages/partials/JobsContainer.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    JobPageLinks: _partials_JobPageLinks__WEBPACK_IMPORTED_MODULE_0__["default"],
+    JobsContainer: _partials_JobsContainer__WEBPACK_IMPORTED_MODULE_1__["default"]
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/BeachClub.vue?vue&type=script&lang=js&":
 /*!***************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/BeachClub.vue?vue&type=script&lang=js& ***!
@@ -1839,6 +1913,249 @@ module.exports = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _partials_JobPageLinks__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./partials/JobPageLinks */ "./resources/js/pages/partials/JobPageLinks.vue");
+/* harmony import */ var _partials_JobsContainer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./partials/JobsContainer */ "./resources/js/pages/partials/JobsContainer.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    JobPageLinks: _partials_JobPageLinks__WEBPACK_IMPORTED_MODULE_0__["default"],
+    JobsContainer: _partials_JobsContainer__WEBPACK_IMPORTED_MODULE_1__["default"]
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Home.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Home.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _partials_JobPageLinks__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./partials/JobPageLinks */ "./resources/js/pages/partials/JobPageLinks.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -1923,12 +2240,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _partials_JobPageLinks__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./partials/JobPageLinks */ "./resources/js/pages/partials/JobPageLinks.vue");
-//
-//
-//
-//
-//
-//
+/* harmony import */ var _partials_JobsContainer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./partials/JobsContainer */ "./resources/js/pages/partials/JobsContainer.vue");
 //
 //
 //
@@ -1993,9 +2305,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    JobPageLinks: _partials_JobPageLinks__WEBPACK_IMPORTED_MODULE_0__["default"]
+    JobPageLinks: _partials_JobPageLinks__WEBPACK_IMPORTED_MODULE_0__["default"],
+    JobsContainer: _partials_JobsContainer__WEBPACK_IMPORTED_MODULE_1__["default"]
   }
 });
 
@@ -2011,6 +2325,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _partials_JobPageLinks__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./partials/JobPageLinks */ "./resources/js/pages/partials/JobPageLinks.vue");
+/* harmony import */ var _partials_JobsContainer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./partials/JobsContainer */ "./resources/js/pages/partials/JobsContainer.vue");
 //
 //
 //
@@ -2070,81 +2385,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  data: function data() {
-    return {
-      jobs: []
-    };
-  },
   components: {
-    JobPageLinks: _partials_JobPageLinks__WEBPACK_IMPORTED_MODULE_0__["default"]
-  },
-  methods: {
-    fetchJobs: function fetchJobs() {
-      var _this = this;
-
-      window.axios.get("/fetch-jobs?type=ski").then(function (_ref) {
-        var data = _ref.data;
-        _this.jobs = data;
-      });
-    },
-    isEven: function isEven(n) {
-      return n % 2 == 0;
-    }
-  },
-  mounted: function mounted() {
-    this.fetchJobs();
+    JobPageLinks: _partials_JobPageLinks__WEBPACK_IMPORTED_MODULE_0__["default"],
+    JobsContainer: _partials_JobsContainer__WEBPACK_IMPORTED_MODULE_1__["default"]
   }
 });
 
@@ -2160,12 +2406,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _partials_JobPageLinks__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./partials/JobPageLinks */ "./resources/js/pages/partials/JobPageLinks.vue");
-//
-//
-//
-//
-//
-//
+/* harmony import */ var _partials_JobsContainer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./partials/JobsContainer */ "./resources/js/pages/partials/JobsContainer.vue");
 //
 //
 //
@@ -2226,9 +2467,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    JobPageLinks: _partials_JobPageLinks__WEBPACK_IMPORTED_MODULE_0__["default"]
+    JobPageLinks: _partials_JobPageLinks__WEBPACK_IMPORTED_MODULE_0__["default"],
+    JobsContainer: _partials_JobsContainer__WEBPACK_IMPORTED_MODULE_1__["default"]
   }
 });
 
@@ -2244,12 +2487,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _partials_JobPageLinks__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./partials/JobPageLinks */ "./resources/js/pages/partials/JobPageLinks.vue");
-//
-//
-//
-//
-//
-//
+/* harmony import */ var _partials_JobsContainer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./partials/JobsContainer */ "./resources/js/pages/partials/JobsContainer.vue");
 //
 //
 //
@@ -2309,9 +2547,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    JobPageLinks: _partials_JobPageLinks__WEBPACK_IMPORTED_MODULE_0__["default"]
+    JobPageLinks: _partials_JobPageLinks__WEBPACK_IMPORTED_MODULE_0__["default"],
+    JobsContainer: _partials_JobsContainer__WEBPACK_IMPORTED_MODULE_1__["default"]
   }
 });
 
@@ -2402,6 +2642,117 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/partials/JobsContainer.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/partials/JobsContainer.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: ["type"],
+  data: function data() {
+    return {
+      jobs: [],
+      busy: false
+    };
+  },
+  methods: {
+    imageNumber: function imageNumber(i) {
+      return i + 1;
+    },
+    fetchJobs: function fetchJobs() {
+      var _this = this;
+
+      this.busy = true;
+      window.axios.get("/fetch-jobs?type=" + this.type).then(function (_ref) {
+        var data = _ref.data;
+        _this.jobs = data;
+        _this.busy = false;
+      });
+    },
+    isEven: function isEven(n) {
+      return n % 2 == 0;
+    }
+  },
+  mounted: function mounted() {
+    this.fetchJobs();
+  }
+});
 
 /***/ }),
 
@@ -37696,6 +38047,159 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/AllJobs.vue?vue&type=template&id=b04af2c4&":
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/AllJobs.vue?vue&type=template&id=b04af2c4& ***!
+  \*****************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "winter" },
+    [
+      _vm._m(0),
+      _vm._v(" "),
+      _c("jobs-container", { attrs: { type: "all" } }),
+      _vm._v(" "),
+      _c("job-page-links")
+    ],
+    1
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticStyle: { "margin-top": "-3rem" } }, [
+      _c(
+        "div",
+        {
+          staticClass: "carousel slide",
+          attrs: { id: "carouselExampleCaptions", "data-ride": "carousel" }
+        },
+        [
+          _c("ol", { staticClass: "carousel-indicators" }, [
+            _c("li", {
+              staticClass: "active",
+              attrs: {
+                "data-target": "#carouselExampleCaptions",
+                "data-slide-to": "0"
+              }
+            }),
+            _vm._v(" "),
+            _c("li", {
+              attrs: {
+                "data-target": "#carouselExampleCaptions",
+                "data-slide-to": "1"
+              }
+            }),
+            _vm._v(" "),
+            _c("li", {
+              attrs: {
+                "data-target": "#carouselExampleCaptions",
+                "data-slide-to": "2"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "carousel-inner" }, [
+            _c("div", { staticClass: "carousel-item active" }, [
+              _c("img", {
+                staticClass: "d-block w-100",
+                attrs: {
+                  src: "/images/blended/1.jpg",
+                  alt: "/images/blended/1.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "carousel-caption d-none d-md-block" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-8 mx-auto" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "p-3 text-danger",
+                        staticStyle: {
+                          background: "rgba(255,255,255,06)",
+                          "border-radius": "1rem"
+                        }
+                      },
+                      [
+                        _c("h1", { staticClass: "h2 mb-0" }, [
+                          _vm._v("All Jobs")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", { staticClass: "text-dark mb-0" }, [
+                          _vm._v("All available jobs with Alpine Elements")
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "carousel-control-prev",
+              attrs: {
+                href: "#carouselExampleCaptions",
+                role: "button",
+                "data-slide": "prev"
+              }
+            },
+            [
+              _c("span", {
+                staticClass: "carousel-control-prev-icon",
+                attrs: { "aria-hidden": "true" }
+              }),
+              _vm._v(" "),
+              _c("span", { staticClass: "sr-only" }, [_vm._v("Previous")])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "carousel-control-next",
+              attrs: {
+                href: "#carouselExampleCaptions",
+                role: "button",
+                "data-slide": "next"
+              }
+            },
+            [
+              _c("span", {
+                staticClass: "carousel-control-next-icon",
+                attrs: { "aria-hidden": "true" }
+              }),
+              _vm._v(" "),
+              _c("span", { staticClass: "sr-only" }, [_vm._v("Next")])
+            ]
+          )
+        ]
+      )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/BeachClub.vue?vue&type=template&id=a65b3600&":
 /*!*******************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/BeachClub.vue?vue&type=template&id=a65b3600& ***!
@@ -37717,11 +38221,11 @@ var render = function() {
     [
       _vm._m(0),
       _vm._v(" "),
-      _vm._m(1),
+      _c("jobs-container", { attrs: { type: "beach" } }),
       _vm._v(" "),
       _c("job-page-links"),
       _vm._v(" "),
-      _vm._m(2)
+      _vm._m(1)
     ],
     1
   )
@@ -37848,16 +38352,6 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container mt-5" }, [
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col" }, [_c("h1")])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row mt-5" }, [
         _c("div", { staticClass: "col text-center" }, [
@@ -37866,6 +38360,439 @@ var staticRenderFns = [
             { staticClass: "btn btn-lg btn-primary", attrs: { href: "/jobs" } },
             [_vm._v("View All Jobs")]
           )
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Home.vue?vue&type=template&id=b3c5cf30&":
+/*!**************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Home.vue?vue&type=template&id=b3c5cf30& ***!
+  \**************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [_vm._m(0), _vm._v(" "), _vm._m(1), _vm._v(" "), _c("job-page-links")],
+    1
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticStyle: { "margin-top": "-3rem" } }, [
+      _c(
+        "div",
+        {
+          staticClass: "carousel slide",
+          attrs: { id: "carouselExampleCaptions", "data-ride": "carousel" }
+        },
+        [
+          _c("ol", { staticClass: "carousel-indicators" }, [
+            _c("li", {
+              staticClass: "active",
+              attrs: {
+                "data-target": "#carouselExampleCaptions",
+                "data-slide-to": "0"
+              }
+            }),
+            _vm._v(" "),
+            _c("li", {
+              attrs: {
+                "data-target": "#carouselExampleCaptions",
+                "data-slide-to": "1"
+              }
+            }),
+            _vm._v(" "),
+            _c("li", {
+              attrs: {
+                "data-target": "#carouselExampleCaptions",
+                "data-slide-to": "2"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "carousel-inner" }, [
+            _c("div", { staticClass: "carousel-item active" }, [
+              _c("img", {
+                staticClass: "d-block w-100",
+                attrs: {
+                  src: "/images/headers/1.jpg",
+                  alt: "/images/headers/1.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "carousel-caption d-none d-md-block" }, [
+                _c("button", { staticClass: "btn btn-lg btn-primary mb-4" }, [
+                  _vm._v("View Summer Jobs")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-8 mx-auto" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "p-3 text-danger",
+                        staticStyle: {
+                          background: "rgba(255,255,255,06)",
+                          "border-radius": "1rem"
+                        }
+                      },
+                      [
+                        _c("h1", { staticClass: "h2 mb-0" }, [
+                          _vm._v("Summer Jobs in the Alps 2020")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", { staticClass: "text-dark mb-0" }, [
+                          _vm._v(
+                            "\n                    Our summer jobs across the Alps are now live for 2020. Check\n                    out our full list here!\n                  "
+                          )
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "carousel-item" }, [
+              _c("img", {
+                staticClass: "d-block w-100",
+                attrs: {
+                  src: "/images/headers/2.jpg",
+                  alt: "/images/headers/1.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "carousel-caption d-none d-md-block" }, [
+                _c("button", { staticClass: "btn btn-lg btn-primary mb-4" }, [
+                  _vm._v("View Beach Club Jobs")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-8 mx-auto" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "p-3 text-danger",
+                        staticStyle: {
+                          background: "rgba(255,255,255,06)",
+                          "border-radius": "1rem"
+                        }
+                      },
+                      [
+                        _c("h1", { staticClass: "h2 mb-0" }, [
+                          _vm._v("Beach Club Jobs 2020")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", { staticClass: "text-dark mb-0" }, [
+                          _vm._v(
+                            "\n                    Our summer beach club jobs are now live for 2020. Check\n                    out our full list here!\n                  "
+                          )
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "carousel-item" }, [
+              _c("img", {
+                staticClass: "d-block w-100",
+                attrs: {
+                  src: "/images/headers/3.jpg",
+                  alt: "/images/headers/1.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "carousel-caption d-none d-md-block" }, [
+                _c("button", { staticClass: "btn btn-lg btn-primary mb-4" }, [
+                  _vm._v("View Winter Jobs")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-8 mx-auto" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "p-3 text-danger",
+                        staticStyle: {
+                          background: "rgba(255,255,255,06)",
+                          "border-radius": "1rem"
+                        }
+                      },
+                      [
+                        _c("h1", { staticClass: "h2 mb-0" }, [
+                          _vm._v("Winter Jobs in the Alps 2020/2021")
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "carousel-control-prev",
+              attrs: {
+                href: "#carouselExampleCaptions",
+                role: "button",
+                "data-slide": "prev"
+              }
+            },
+            [
+              _c("span", {
+                staticClass: "carousel-control-prev-icon",
+                attrs: { "aria-hidden": "true" }
+              }),
+              _vm._v(" "),
+              _c("span", { staticClass: "sr-only" }, [_vm._v("Previous")])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "carousel-control-next",
+              attrs: {
+                href: "#carouselExampleCaptions",
+                role: "button",
+                "data-slide": "next"
+              }
+            },
+            [
+              _c("span", {
+                staticClass: "carousel-control-next-icon",
+                attrs: { "aria-hidden": "true" }
+              }),
+              _vm._v(" "),
+              _c("span", { staticClass: "sr-only" }, [_vm._v("Next")])
+            ]
+          )
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row text-center" }, [
+        _c("div", { staticClass: "col" }, [
+          _c("i", {
+            staticClass: "fad fa-chevron-down fa-6x text-primary py-4"
+          })
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row mb-5" }, [
+        _c("div", { staticClass: "col-md-6 mb-3 mb-md-0 my-auto" }, [
+          _c("div", { staticClass: "card border-0 shadow-sm bg-light" }, [
+            _c("div", { staticClass: "card-body text-center" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col" }, [
+                  _c("h1", { staticClass: "text-primary" }, [_vm._v("Step 1")]),
+                  _vm._v(" "),
+                  _c("i", {
+                    staticClass: "fad fa-file-alt fa-5x text-primary mt-4 mb-3"
+                  })
+                ])
+              ])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-6 mb-3 mb-md-0 my-auto" }, [
+          _c("div", { staticClass: "card border-0 shadow-sm bg-light" }, [
+            _c("div", { staticClass: "card-body text-center" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col" }, [
+                  _c("h3", { staticClass: "text-dark" }, [
+                    _vm._v("The Application")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      '\n                  Applying for a job with Alpine Elements has never been easier. Just visit our full list\n                  of available positions and click "Apply"\n                '
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    {
+                      staticClass: "btn btn-lg btn-primary mt-3",
+                      attrs: { href: "/jobs" }
+                    },
+                    [_vm._v("View All Jobs")]
+                  )
+                ])
+              ])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row mb-5" }, [
+        _c("div", { staticClass: "col-md-6 mb-3 mb-md-0 my-auto" }, [
+          _c("div", { staticClass: "card border-0 shadow-sm bg-light" }, [
+            _c("div", { staticClass: "card-body text-center" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col" }, [
+                  _c("h1", { staticClass: "text-primary" }, [_vm._v("Step 2")]),
+                  _vm._v(" "),
+                  _c("i", {
+                    staticClass: "fad fa-user fa-5x text-primary mt-4 mb-3"
+                  })
+                ])
+              ])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-6 mb-3 mb-md-0 my-auto" }, [
+          _c("div", { staticClass: "card border-0 shadow-sm bg-light" }, [
+            _c("div", { staticClass: "card-body text-center" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col" }, [
+                  _c("h3", { staticClass: "text-dark" }, [
+                    _vm._v("Screening Process")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "\n                  We screen every candidate before inviting for an interview to ensure you will be the\n                  right fit for Alpine Elements\n                "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    {
+                      staticClass: "btn btn-lg btn-primary mt-3",
+                      attrs: { href: "/screening" }
+                    },
+                    [_vm._v("Read More")]
+                  )
+                ])
+              ])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row mb-5" }, [
+        _c("div", { staticClass: "col-md-6 mb-3 mb-md-0 my-auto" }, [
+          _c("div", { staticClass: "card border-0 shadow-sm bg-light" }, [
+            _c("div", { staticClass: "card-body text-center" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col" }, [
+                  _c("h1", { staticClass: "text-primary" }, [_vm._v("Step 3")]),
+                  _vm._v(" "),
+                  _c("i", {
+                    staticClass:
+                      "fad fa-certificate fa-5x text-primary mt-4 mb-3"
+                  })
+                ])
+              ])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-6 mb-3 mb-md-0 my-auto" }, [
+          _c("div", { staticClass: "card border-0 shadow-sm bg-light" }, [
+            _c("div", { staticClass: "card-body text-center" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col" }, [
+                  _c("h3", { staticClass: "text-dark" }, [
+                    _vm._v("The Interview")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "\n                  A member of the Alpine Elements recruitment team will reach out to invite you for a\n                  face-to-face interview. Yay!\n                "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    {
+                      staticClass: "btn btn-lg btn-primary mt-3",
+                      attrs: { href: "/jobs" }
+                    },
+                    [_vm._v("Find our offices")]
+                  )
+                ])
+              ])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row mb-5" }, [
+        _c("div", { staticClass: "col-md-6 mb-3 mb-md-0 my-auto" }, [
+          _c("div", { staticClass: "card border-0 shadow-sm bg-light" }, [
+            _c("div", { staticClass: "card-body text-center" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col" }, [
+                  _c("h1", { staticClass: "text-primary" }, [_vm._v("Step 4")]),
+                  _vm._v(" "),
+                  _c("i", {
+                    staticClass: "fad fa-plane fa-5x text-primary mt-4 mb-3"
+                  })
+                ])
+              ])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-6 mb-3 mb-md-0 my-auto" }, [
+          _c("div", { staticClass: "card border-0 shadow-sm bg-light" }, [
+            _c("div", { staticClass: "card-body text-center" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col" }, [
+                  _c("h3", { staticClass: "text-dark" }, [
+                    _vm._v("Off to Work!")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "\n                  Congrats, you got the job!! Off to your destination for on-site training :) - Click here\n                  to find\n                  out more about our current & past employees experiences!\n                "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    {
+                      staticClass: "btn btn-lg btn-primary mt-3",
+                      attrs: { href: "/jobs" }
+                    },
+                    [_vm._v("Alpine Elements Blog")]
+                  )
+                ])
+              ])
+            ])
+          ])
         ])
       ])
     ])
@@ -37898,11 +38825,11 @@ var render = function() {
     [
       _vm._m(0),
       _vm._v(" "),
-      _vm._m(1),
+      _c("jobs-container", { attrs: { type: "office" } }),
       _vm._v(" "),
       _c("job-page-links"),
       _vm._v(" "),
-      _vm._m(2)
+      _vm._m(1)
     ],
     1
   )
@@ -38031,16 +38958,6 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container mt-5" }, [
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col" }, [_c("h1")])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row mt-5" }, [
         _c("div", { staticClass: "col text-center" }, [
@@ -38081,114 +38998,11 @@ var render = function() {
     [
       _vm._m(0),
       _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "container mt-5" },
-        [
-          _vm._m(1),
-          _vm._v(" "),
-          _vm._l(_vm.jobs, function(j, i) {
-            return _c("div", { key: j.id }, [
-              _vm.isEven(i)
-                ? _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-6" }, [
-                      _c("img", {
-                        staticClass: "img-fluid",
-                        attrs: { src: "", alt: j.title }
-                      })
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "col-md-6" }, [
-                      _c(
-                        "div",
-                        { staticClass: "card border-0 bg-light shadow-sm" },
-                        [
-                          _c("div", { staticClass: "card-body" }, [
-                            _c("h4", [_vm._v(_vm._s(j.title))]),
-                            _vm._v(" "),
-                            _c("div", {
-                              domProps: { innerHTML: _vm._s(j.description) }
-                            }),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "row" }, [
-                              _c("div", { staticClass: "col-md-6 mx-auto" }, [
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "btn btn-primary btn-lg btn-block",
-                                    attrs: { href: j.url, target: "_blank" }
-                                  },
-                                  [
-                                    _c("i", {
-                                      staticClass: "fas fa-star mr-2"
-                                    }),
-                                    _vm._v("Apply Now\n                  ")
-                                  ]
-                                )
-                              ])
-                            ])
-                          ])
-                        ]
-                      )
-                    ])
-                  ])
-                : _vm._e(),
-              _vm._v(" "),
-              !_vm.isEven(i)
-                ? _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-6" }, [
-                      _c(
-                        "div",
-                        { staticClass: "card border-0 bg-light shadow-sm" },
-                        [
-                          _c("div", { staticClass: "card-body" }, [
-                            _c("h4", [_vm._v(_vm._s(j.title))]),
-                            _vm._v(" "),
-                            _c("div", {
-                              domProps: { innerHTML: _vm._s(j.description) }
-                            }),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "row" }, [
-                              _c("div", { staticClass: "col-md-6 mx-auto" }, [
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "btn btn-primary btn-lg btn-block",
-                                    attrs: { href: j.url, target: "_blank" }
-                                  },
-                                  [
-                                    _c("i", {
-                                      staticClass: "fas fa-star mr-2"
-                                    }),
-                                    _vm._v("Apply Now\n                  ")
-                                  ]
-                                )
-                              ])
-                            ])
-                          ])
-                        ]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "col-md-6" }, [
-                      _c("img", {
-                        staticClass: "img-fluid",
-                        attrs: { src: "", alt: j.title }
-                      })
-                    ])
-                  ])
-                : _vm._e()
-            ])
-          })
-        ],
-        2
-      ),
+      _c("jobs-container", { attrs: { type: "ski" } }),
       _vm._v(" "),
       _c("job-page-links"),
       _vm._v(" "),
-      _vm._m(2)
+      _vm._m(1)
     ],
     1
   )
@@ -38315,14 +39129,6 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col" }, [_c("h1")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row mt-5" }, [
         _c("div", { staticClass: "col text-center" }, [
@@ -38363,11 +39169,11 @@ var render = function() {
     [
       _vm._m(0),
       _vm._v(" "),
-      _vm._m(1),
+      _c("jobs-container", { attrs: { type: "summer" } }),
       _vm._v(" "),
       _c("job-page-links"),
       _vm._v(" "),
-      _vm._m(2)
+      _vm._m(1)
     ],
     1
   )
@@ -38494,16 +39300,6 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container mt-5" }, [
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col" }, [_c("h1")])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row mt-5" }, [
         _c("div", { staticClass: "col text-center" }, [
@@ -38544,11 +39340,11 @@ var render = function() {
     [
       _vm._m(0),
       _vm._v(" "),
-      _vm._m(1),
+      _c("jobs-container", { attrs: { type: "yacht" } }),
       _vm._v(" "),
       _c("job-page-links"),
       _vm._v(" "),
-      _vm._m(2)
+      _vm._m(1)
     ],
     1
   )
@@ -38665,16 +39461,6 @@ var staticRenderFns = [
           )
         ]
       )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container mt-5" }, [
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col" }, [_c("h1")])
-      ])
     ])
   },
   function() {
@@ -38858,6 +39644,169 @@ var staticRenderFns = [
           ])
         ])
       ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/partials/JobsContainer.vue?vue&type=template&id=44199bd2&":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/partials/JobsContainer.vue?vue&type=template&id=44199bd2& ***!
+  \********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "jobs-container" }, [
+    _c(
+      "div",
+      { staticClass: "container my-5" },
+      [
+        _c("div", { staticClass: "row mb-3" }, [
+          _c("div", { staticClass: "col" }, [
+            _c("h1", { staticClass: "text-capitalize" }, [
+              _vm._v(
+                _vm._s(_vm.type == "beach" ? _vm.type + " Club" : _vm.type) +
+                  " Jobs with Alpine Elements"
+              )
+            ]),
+            _vm._v(" "),
+            _c("hr", { attrs: { width: "50%", align: "left" } })
+          ])
+        ]),
+        _vm._v(" "),
+        _vm.busy ? _c("div", { staticClass: "row" }, [_vm._m(0)]) : _vm._e(),
+        _vm._v(" "),
+        _vm._l(_vm.jobs, function(j, i) {
+          return _c("div", { key: j.id }, [
+            _vm.isEven(i)
+              ? _c("div", { staticClass: "row mb-3 mb-md-5" }, [
+                  _c("div", { staticClass: "col-md-6 my-auto" }, [
+                    _c("img", {
+                      staticClass: "img-fluid",
+                      attrs: {
+                        src:
+                          "/images/" +
+                          _vm.type +
+                          "/" +
+                          _vm.imageNumber(i) +
+                          ".jpg",
+                        alt: j.title
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6 my-auto" }, [
+                    _c(
+                      "div",
+                      { staticClass: "card border-0 bg-light shadow-sm" },
+                      [
+                        _c("div", { staticClass: "card-body" }, [
+                          _c("h4", [_vm._v(_vm._s(j.title))]),
+                          _vm._v(" "),
+                          _c("div", {
+                            domProps: { innerHTML: _vm._s(j.description) }
+                          }),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "row" }, [
+                            _c("div", { staticClass: "col-md-6 mx-auto" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "btn btn-primary btn-lg btn-block",
+                                  attrs: { href: j.url, target: "_blank" }
+                                },
+                                [
+                                  _c("i", { staticClass: "fas fa-star mr-2" }),
+                                  _vm._v("Apply Now\n                  ")
+                                ]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              : _vm._e(),
+            _vm._v(" "),
+            !_vm.isEven(i)
+              ? _c("div", { staticClass: "row mb-3 mb-md-5" }, [
+                  _c("div", { staticClass: "col-md-6 my-auto" }, [
+                    _c(
+                      "div",
+                      { staticClass: "card border-0 bg-light shadow-sm" },
+                      [
+                        _c("div", { staticClass: "card-body" }, [
+                          _c("h4", [_vm._v(_vm._s(j.title))]),
+                          _vm._v(" "),
+                          _c("div", {
+                            domProps: { innerHTML: _vm._s(j.description) }
+                          }),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "row" }, [
+                            _c("div", { staticClass: "col-md-6 mx-auto" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "btn btn-primary btn-lg btn-block",
+                                  attrs: { href: j.url, target: "_blank" }
+                                },
+                                [
+                                  _c("i", { staticClass: "fas fa-star mr-2" }),
+                                  _vm._v("Apply Now\n                  ")
+                                ]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6 my-auto" }, [
+                    _c("img", {
+                      staticClass: "img-fluid",
+                      attrs: {
+                        src:
+                          "/images/" +
+                          _vm.type +
+                          "/" +
+                          _vm.imageNumber(i) +
+                          ".jpg",
+                        alt: j.title
+                      }
+                    })
+                  ])
+                ])
+              : _vm._e()
+          ])
+        })
+      ],
+      2
+    )
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col text-center" }, [
+      _c("i", { staticClass: "fad fa-spinner fa-spin fa-5x text-primary" })
     ])
   }
 ]
@@ -51097,12 +52046,15 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
+	"./AllJobs.vue": "./resources/js/pages/AllJobs.vue",
 	"./BeachClub.vue": "./resources/js/pages/BeachClub.vue",
+	"./Home.vue": "./resources/js/pages/Home.vue",
 	"./Office.vue": "./resources/js/pages/Office.vue",
 	"./Ski.vue": "./resources/js/pages/Ski.vue",
 	"./Summer.vue": "./resources/js/pages/Summer.vue",
 	"./Yacht.vue": "./resources/js/pages/Yacht.vue",
-	"./partials/JobPageLinks.vue": "./resources/js/pages/partials/JobPageLinks.vue"
+	"./partials/JobPageLinks.vue": "./resources/js/pages/partials/JobPageLinks.vue",
+	"./partials/JobsContainer.vue": "./resources/js/pages/partials/JobsContainer.vue"
 };
 
 
@@ -51124,6 +52076,75 @@ webpackContext.keys = function webpackContextKeys() {
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
 webpackContext.id = "./resources/js/pages sync recursive \\.vue$/";
+
+/***/ }),
+
+/***/ "./resources/js/pages/AllJobs.vue":
+/*!****************************************!*\
+  !*** ./resources/js/pages/AllJobs.vue ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _AllJobs_vue_vue_type_template_id_b04af2c4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AllJobs.vue?vue&type=template&id=b04af2c4& */ "./resources/js/pages/AllJobs.vue?vue&type=template&id=b04af2c4&");
+/* harmony import */ var _AllJobs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AllJobs.vue?vue&type=script&lang=js& */ "./resources/js/pages/AllJobs.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _AllJobs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _AllJobs_vue_vue_type_template_id_b04af2c4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _AllJobs_vue_vue_type_template_id_b04af2c4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/pages/AllJobs.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/pages/AllJobs.vue?vue&type=script&lang=js&":
+/*!*****************************************************************!*\
+  !*** ./resources/js/pages/AllJobs.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AllJobs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./AllJobs.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/AllJobs.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AllJobs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/pages/AllJobs.vue?vue&type=template&id=b04af2c4&":
+/*!***********************************************************************!*\
+  !*** ./resources/js/pages/AllJobs.vue?vue&type=template&id=b04af2c4& ***!
+  \***********************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AllJobs_vue_vue_type_template_id_b04af2c4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./AllJobs.vue?vue&type=template&id=b04af2c4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/AllJobs.vue?vue&type=template&id=b04af2c4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AllJobs_vue_vue_type_template_id_b04af2c4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AllJobs_vue_vue_type_template_id_b04af2c4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ }),
 
@@ -51191,6 +52212,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_BeachClub_vue_vue_type_template_id_a65b3600___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_BeachClub_vue_vue_type_template_id_a65b3600___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/pages/Home.vue":
+/*!*************************************!*\
+  !*** ./resources/js/pages/Home.vue ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Home_vue_vue_type_template_id_b3c5cf30___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Home.vue?vue&type=template&id=b3c5cf30& */ "./resources/js/pages/Home.vue?vue&type=template&id=b3c5cf30&");
+/* harmony import */ var _Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Home.vue?vue&type=script&lang=js& */ "./resources/js/pages/Home.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Home_vue_vue_type_template_id_b3c5cf30___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Home_vue_vue_type_template_id_b3c5cf30___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/pages/Home.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/pages/Home.vue?vue&type=script&lang=js&":
+/*!**************************************************************!*\
+  !*** ./resources/js/pages/Home.vue?vue&type=script&lang=js& ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Home.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Home.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/pages/Home.vue?vue&type=template&id=b3c5cf30&":
+/*!********************************************************************!*\
+  !*** ./resources/js/pages/Home.vue?vue&type=template&id=b3c5cf30& ***!
+  \********************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_template_id_b3c5cf30___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Home.vue?vue&type=template&id=b3c5cf30& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Home.vue?vue&type=template&id=b3c5cf30&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_template_id_b3c5cf30___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_template_id_b3c5cf30___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -51536,6 +52626,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_JobPageLinks_vue_vue_type_template_id_2473d891___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_JobPageLinks_vue_vue_type_template_id_2473d891___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/pages/partials/JobsContainer.vue":
+/*!*******************************************************!*\
+  !*** ./resources/js/pages/partials/JobsContainer.vue ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _JobsContainer_vue_vue_type_template_id_44199bd2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./JobsContainer.vue?vue&type=template&id=44199bd2& */ "./resources/js/pages/partials/JobsContainer.vue?vue&type=template&id=44199bd2&");
+/* harmony import */ var _JobsContainer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./JobsContainer.vue?vue&type=script&lang=js& */ "./resources/js/pages/partials/JobsContainer.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _JobsContainer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _JobsContainer_vue_vue_type_template_id_44199bd2___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _JobsContainer_vue_vue_type_template_id_44199bd2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/pages/partials/JobsContainer.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/pages/partials/JobsContainer.vue?vue&type=script&lang=js&":
+/*!********************************************************************************!*\
+  !*** ./resources/js/pages/partials/JobsContainer.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_JobsContainer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./JobsContainer.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/partials/JobsContainer.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_JobsContainer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/pages/partials/JobsContainer.vue?vue&type=template&id=44199bd2&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/pages/partials/JobsContainer.vue?vue&type=template&id=44199bd2& ***!
+  \**************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_JobsContainer_vue_vue_type_template_id_44199bd2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./JobsContainer.vue?vue&type=template&id=44199bd2& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/partials/JobsContainer.vue?vue&type=template&id=44199bd2&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_JobsContainer_vue_vue_type_template_id_44199bd2___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_JobsContainer_vue_vue_type_template_id_44199bd2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

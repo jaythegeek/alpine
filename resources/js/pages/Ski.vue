@@ -45,57 +45,7 @@
         </a>
       </div>
     </div>
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col">
-          <h1></h1>
-        </div>
-      </div>
-
-      <div v-for="(j,i) in jobs" :key="j.id">
-        <div v-if="isEven(i)" class="row">
-          <div class="col-md-6">
-            <img src :alt="j.title" class="img-fluid" />
-          </div>
-          <div class="col-md-6">
-            <div class="card border-0 bg-light shadow-sm">
-              <div class="card-body">
-                <h4>{{ j.title }}</h4>
-                <div v-html="j.description"></div>
-                <div class="row">
-                  <div class="col-md-6 mx-auto">
-                    <a :href="j.url" target="_blank" class="btn btn-primary btn-lg btn-block">
-                      <i class="fas fa-star mr-2"></i>Apply Now
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--  -->
-        <div v-if="!isEven(i)" class="row">
-          <div class="col-md-6">
-            <div class="card border-0 bg-light shadow-sm">
-              <div class="card-body">
-                <h4>{{ j.title }}</h4>
-                <div v-html="j.description"></div>
-                <div class="row">
-                  <div class="col-md-6 mx-auto">
-                    <a :href="j.url" target="_blank" class="btn btn-primary btn-lg btn-block">
-                      <i class="fas fa-star mr-2"></i>Apply Now
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <img src :alt="j.title" class="img-fluid" />
-          </div>
-        </div>
-      </div>
-    </div>
+    <jobs-container :type="'ski'"></jobs-container>
     <job-page-links></job-page-links>
     <div class="container">
       <div class="row mt-5">
@@ -109,27 +59,12 @@
 
 <script>
 import JobPageLinks from "./partials/JobPageLinks";
+import JobsContainer from "./partials/JobsContainer";
+
 export default {
-  data() {
-    return {
-      jobs: []
-    };
-  },
   components: {
-    JobPageLinks
-  },
-  methods: {
-    fetchJobs() {
-      window.axios.get("/fetch-jobs?type=ski").then(({ data }) => {
-        this.jobs = data;
-      });
-    },
-    isEven(n) {
-      return n % 2 == 0;
-    }
-  },
-  mounted() {
-    this.fetchJobs();
+    JobPageLinks,
+    JobsContainer
   }
 };
 </script>

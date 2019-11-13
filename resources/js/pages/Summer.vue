@@ -45,13 +45,7 @@
         </a>
       </div>
     </div>
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col">
-          <h1></h1>
-        </div>
-      </div>
-    </div>
+    <jobs-container :type="'summer'"></jobs-container>
     <job-page-links></job-page-links>
     <div class="container">
       <div class="row mt-5">
@@ -65,9 +59,11 @@
 
 <script>
 import JobPageLinks from "./partials/JobPageLinks"
+import JobsContainer from "./partials/JobsContainer"
 export default {
     components: {
-        JobPageLinks
+        JobPageLinks,
+        JobsContainer
     }
 };
 </script>

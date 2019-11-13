@@ -38,6 +38,10 @@ Route::get('/yacht-jobs', function () {
     return view('pages.yacht-jobs');
 });
 
+Route::get('/jobs', function () {
+    return view('pages.jobs');
+});
+
 Auth::routes();
 
 Route::get('/fetch-jobs', 'HomeController@fetchJobs');
