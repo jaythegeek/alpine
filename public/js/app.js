@@ -39541,7 +39541,7 @@ var staticRenderFns = [
                 "a",
                 {
                   staticClass: "btn btn-primary",
-                  attrs: { href: "/jobs/winter" }
+                  attrs: { href: "/ski-jobs" }
                 },
                 [_vm._v("View Winter Jobs")]
               )
@@ -39572,7 +39572,7 @@ var staticRenderFns = [
                 "a",
                 {
                   staticClass: "btn btn-primary",
-                  attrs: { href: "/jobs/summer" }
+                  attrs: { href: "/summer-jobs" }
                 },
                 [_vm._v("View Summer Jobs")]
               )
@@ -39605,7 +39605,7 @@ var staticRenderFns = [
                 "a",
                 {
                   staticClass: "btn btn-primary",
-                  attrs: { href: "/jobs/beach" }
+                  attrs: { href: "/beach-club-jobs" }
                 },
                 [_vm._v("View Beach Club Jobs")]
               )
@@ -39636,7 +39636,7 @@ var staticRenderFns = [
                 "a",
                 {
                   staticClass: "btn btn-primary",
-                  attrs: { href: "/jobs/winter" }
+                  attrs: { href: "/office-jobs" }
                 },
                 [_vm._v("View Office Jobs")]
               )

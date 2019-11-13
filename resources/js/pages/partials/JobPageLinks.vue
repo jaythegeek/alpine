@@ -18,7 +18,7 @@
             <p
               class="card-text"
             >Ski or Snowboard on your downtime, every day? Work in the Alps this winter</p>
-            <a href="/jobs/winter" class="btn btn-primary">View Winter Jobs</a>
+            <a href="/ski-jobs" class="btn btn-primary">View Winter Jobs</a>
           </div>
         </div>
       </div>
@@ -35,7 +35,7 @@
             <p
               class="card-text"
             >Ski or Snowboard on your downtime, every day? Work in the Alps this winter</p>
-            <a href="/jobs/summer" class="btn btn-primary">View Summer Jobs</a>
+            <a href="/summer-jobs" class="btn btn-primary">View Summer Jobs</a>
           </div>
         </div>
       </div>
@@ -48,7 +48,7 @@
             <p
               class="card-text"
             >Ski or Snowboard on your downtime, every day? Work in the Alps this winter</p>
-            <a href="/jobs/beach" class="btn btn-primary">View Beach Club Jobs</a>
+            <a href="/beach-club-jobs" class="btn btn-primary">View Beach Club Jobs</a>
           </div>
         </div>
       </div>
@@ -65,7 +65,7 @@
             <p
               class="card-text"
             >Ski or Snowboard on your downtime, every day? Work in the Alps this winter</p>
-            <a href="/jobs/winter" class="btn btn-primary">View Office Jobs</a>
+            <a href="/office-jobs" class="btn btn-primary">View Office Jobs</a>
           </div>
         </div>
       </div>
