@@ -2315,6 +2315,165 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Screening.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Screening.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _partials_JobPageLinks__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./partials/JobPageLinks */ "./resources/js/pages/partials/JobPageLinks.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    JobPageLinks: _partials_JobPageLinks__WEBPACK_IMPORTED_MODULE_0__["default"]
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Ski.vue?vue&type=script&lang=js&":
 /*!*********************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Ski.vue?vue&type=script&lang=js& ***!
@@ -38977,6 +39136,255 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Screening.vue?vue&type=template&id=4b8c5dbd&":
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Screening.vue?vue&type=template&id=4b8c5dbd& ***!
+  \*******************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _vm._m(0),
+      _vm._v(" "),
+      _vm._m(1),
+      _vm._v(" "),
+      _c("job-page-links"),
+      _vm._v(" "),
+      _vm._m(2)
+    ],
+    1
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticStyle: { "margin-top": "-3rem" } }, [
+      _c(
+        "div",
+        {
+          staticClass: "carousel slide",
+          attrs: { id: "carouselExampleCaptions", "data-ride": "carousel" }
+        },
+        [
+          _c("ol", { staticClass: "carousel-indicators" }, [
+            _c("li", {
+              staticClass: "active",
+              attrs: {
+                "data-target": "#carouselExampleCaptions",
+                "data-slide-to": "0"
+              }
+            }),
+            _vm._v(" "),
+            _c("li", {
+              attrs: {
+                "data-target": "#carouselExampleCaptions",
+                "data-slide-to": "1"
+              }
+            }),
+            _vm._v(" "),
+            _c("li", {
+              attrs: {
+                "data-target": "#carouselExampleCaptions",
+                "data-slide-to": "2"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "carousel-inner" }, [
+            _c("div", { staticClass: "carousel-item active" }, [
+              _c("img", {
+                staticClass: "d-block w-100",
+                attrs: {
+                  src: "/images/headers/screening.jpg",
+                  alt: "/images/headers/1.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "carousel-caption d-none d-md-block" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-8 mx-auto" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "p-3 text-danger",
+                        staticStyle: {
+                          background: "rgba(255,255,255,06)",
+                          "border-radius": "1rem"
+                        }
+                      },
+                      [
+                        _c("h1", { staticClass: "h2 mb-0" }, [
+                          _vm._v("Screening Process")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", { staticClass: "text-dark mb-0" }, [
+                          _vm._v(
+                            "Helping to find out which role would suit you best!"
+                          )
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "carousel-control-prev",
+              attrs: {
+                href: "#carouselExampleCaptions",
+                role: "button",
+                "data-slide": "prev"
+              }
+            },
+            [
+              _c("span", {
+                staticClass: "carousel-control-prev-icon",
+                attrs: { "aria-hidden": "true" }
+              }),
+              _vm._v(" "),
+              _c("span", { staticClass: "sr-only" }, [_vm._v("Previous")])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "carousel-control-next",
+              attrs: {
+                href: "#carouselExampleCaptions",
+                role: "button",
+                "data-slide": "next"
+              }
+            },
+            [
+              _c("span", {
+                staticClass: "carousel-control-next-icon",
+                attrs: { "aria-hidden": "true" }
+              }),
+              _vm._v(" "),
+              _c("span", { staticClass: "sr-only" }, [_vm._v("Next")])
+            ]
+          )
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container mt-5" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col" }, [
+          _c("h1", [_vm._v("How To Pick The Right Role For You?")]),
+          _vm._v(" "),
+          _c("h3", [_vm._v("Qualified by Experience")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "\n          When recruiting for each role we are looking for candidates that have previous experience of performing\n          the\n          role they are applying for. For example, when reviewing CV’s of applicants for a chalet host role we are\n          looking for previous experience in a cleaning job, a hosting or waiter/ess role and of course previous\n          experience of cooking – for example, through extensive experience in a catering job. We call this\n          Qualified\n          By Experience (QBE).\n        "
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "\n          In the example of the Chalet Host; Cleaning, Waiting on / Hosting and Cooking are the core skills you\n          will\n          need (we refer to them as competencies). By ensuring you have the Core Competencies for the role for\n          which\n          you are applying, the better you will be at your job, the better service you will deliver to our guests\n          and\n          importantly, the quicker you will be at your job and the more free time you will have to enjoy your\n          season.\n        "
+            )
+          ]),
+          _vm._v(" "),
+          _c("h3", [_vm._v("Professional Qualifications")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "\n          You can also qualify through study programmes such as Further Educational college or Vocational courses.\n          Studying for your city and Guilds 701 & 702 or your NVQ level 1,2 or 3 in Professional Cooking at\n          Catering\n          College is a good example of gaining the required qualifications to pass through our screening process.\n          Many\n          of our Hotels staff come from established, well recognised Further Educational colleges each year. We\n          are\n          able to offer placement students from such courses career development opportunities and the chance to\n          cross\n          train in other departments. We have established schemes with Further Educational Colleges and are always\n          on\n          the look out for new schools to work with.\n        "
+            )
+          ]),
+          _vm._v(" "),
+          _c("h3", [_vm._v("The Right Stuff")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "\n          We understand that getting experience can be a catch 22 scenario. How do you gain the experience if\n          you’re\n          never given the opportunity? The answer is simple. We are always on the look out for those shinning\n          stars\n          that possess skills that we simply cannot train. Candidates with;\n        "
+            )
+          ]),
+          _vm._v(" "),
+          _c("ul", { staticClass: "list-unstyled" }, [
+            _c("li", [_vm._v("A Positive and Professional Manner")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("A “Can do Attitude”")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Results Driven")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Customer Centric")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Empathic")]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._v(
+                "The ability to learn from their mistakes and take ownership for their decisions"
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._v(
+                "\n            Can adapt to a culture of sharing successes and failures so we can all learn and move forward\n            together as a team\n          "
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._v(
+                "Will adapt easily to fit in with the existing Alpine Elements team."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [_vm._v("It’s your decision!")])
+          ]),
+          _vm._v(
+            "Finally, ask yourself why you want to do a season? We understand this is an experience and that working\n        overseas can be an exciting prospect. However you will be committing to hard work, long hours and it will be\n        YOU delivering the guest service! Make sure this decision is right for you and that the role is one you are:\n        capable of performing, will commit to and see through to the end.\n        If all this sounds like sound advice and your still excited about doing a season then complete the\n        application form for your chosen role and send us your CV – we can’t wait to meet you.\n      "
+          )
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row mt-5" }, [
+        _c("div", { staticClass: "col text-center" }, [
+          _c(
+            "a",
+            { staticClass: "btn btn-lg btn-primary", attrs: { href: "/jobs" } },
+            [_vm._v("View All Jobs")]
+          )
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Ski.vue?vue&type=template&id=e32196d0&":
 /*!*************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Ski.vue?vue&type=template&id=e32196d0& ***!
@@ -52050,6 +52458,7 @@ var map = {
 	"./BeachClub.vue": "./resources/js/pages/BeachClub.vue",
 	"./Home.vue": "./resources/js/pages/Home.vue",
 	"./Office.vue": "./resources/js/pages/Office.vue",
+	"./Screening.vue": "./resources/js/pages/Screening.vue",
 	"./Ski.vue": "./resources/js/pages/Ski.vue",
 	"./Summer.vue": "./resources/js/pages/Summer.vue",
 	"./Yacht.vue": "./resources/js/pages/Yacht.vue",
@@ -52350,6 +52759,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Office_vue_vue_type_template_id_60a4d385___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Office_vue_vue_type_template_id_60a4d385___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/pages/Screening.vue":
+/*!******************************************!*\
+  !*** ./resources/js/pages/Screening.vue ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Screening_vue_vue_type_template_id_4b8c5dbd___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Screening.vue?vue&type=template&id=4b8c5dbd& */ "./resources/js/pages/Screening.vue?vue&type=template&id=4b8c5dbd&");
+/* harmony import */ var _Screening_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Screening.vue?vue&type=script&lang=js& */ "./resources/js/pages/Screening.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Screening_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Screening_vue_vue_type_template_id_4b8c5dbd___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Screening_vue_vue_type_template_id_4b8c5dbd___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/pages/Screening.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/pages/Screening.vue?vue&type=script&lang=js&":
+/*!*******************************************************************!*\
+  !*** ./resources/js/pages/Screening.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Screening_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Screening.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Screening.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Screening_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/pages/Screening.vue?vue&type=template&id=4b8c5dbd&":
+/*!*************************************************************************!*\
+  !*** ./resources/js/pages/Screening.vue?vue&type=template&id=4b8c5dbd& ***!
+  \*************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Screening_vue_vue_type_template_id_4b8c5dbd___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Screening.vue?vue&type=template&id=4b8c5dbd& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Screening.vue?vue&type=template&id=4b8c5dbd&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Screening_vue_vue_type_template_id_4b8c5dbd___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Screening_vue_vue_type_template_id_4b8c5dbd___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
