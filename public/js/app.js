@@ -38434,7 +38434,7 @@ var staticRenderFns = [
               _c("img", {
                 staticClass: "d-block w-100",
                 attrs: {
-                  src: "/images/headers/1.jpg",
+                  src: "/images/headers/summer.jpg",
                   alt: "/images/headers/1.jpg"
                 }
               }),
@@ -38476,7 +38476,7 @@ var staticRenderFns = [
               _c("img", {
                 staticClass: "d-block w-100",
                 attrs: {
-                  src: "/images/headers/2.jpg",
+                  src: "/images/headers/beach.jpg",
                   alt: "/images/headers/1.jpg"
                 }
               }),
@@ -38518,7 +38518,7 @@ var staticRenderFns = [
               _c("img", {
                 staticClass: "d-block w-100",
                 attrs: {
-                  src: "/images/headers/3.jpg",
+                  src: "/images/headers/winter.jpg",
                   alt: "/images/headers/1.jpg"
                 }
               }),

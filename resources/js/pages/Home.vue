@@ -9,7 +9,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="/images/headers/1.jpg" class="d-block w-100" alt="/images/headers/1.jpg" />
+            <img src="/images/headers/summer.jpg" class="d-block w-100" alt="/images/headers/1.jpg" />
             <div class="carousel-caption d-none d-md-block">
               <button class="btn btn-lg btn-primary mb-4">View Summer Jobs</button>
               <div class="row">
@@ -29,7 +29,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="/images/headers/2.jpg" class="d-block w-100" alt="/images/headers/1.jpg" />
+            <img src="/images/headers/beach.jpg" class="d-block w-100" alt="/images/headers/1.jpg" />
             <div class="carousel-caption d-none d-md-block">
               <button class="btn btn-lg btn-primary mb-4">View Beach Club Jobs</button>
               <div class="row">
@@ -49,7 +49,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="/images/headers/3.jpg" class="d-block w-100" alt="/images/headers/1.jpg" />
+            <img src="/images/headers/winter.jpg" class="d-block w-100" alt="/images/headers/1.jpg" />
             <div class="carousel-caption d-none d-md-block">
               <button class="btn btn-lg btn-primary mb-4">View Winter Jobs</button>
               <div class="row">
