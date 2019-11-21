@@ -18,7 +18,7 @@
                     style="background: rgba(255,255,255,06); border-radius: 1rem"
                   >
                     <h1 class="h2 mb-0">Winter Jobs 2020/2021</h1>
-                    <p class="text-dark mb-0">Winter jobs stuff</p>
+                    <p class="text-dark mb-0">Ski or Snowboard on your downtime, every day? Work in the Alps this winter</p>
                   </div>
                 </div>
               </div>

@@ -34,7 +34,7 @@
             <h5 class="card-title">Summer Jobs</h5>
             <p
               class="card-text"
-            >Ski or Snowboard on your downtime, every day? Work in the Alps this winter</p>
+            >The thrill of a downhill bike trail or a lazy day off by the lake? Join us in the alps this summer</p>
             <a href="/summer-jobs" class="btn btn-primary">View Summer Jobs</a>
           </div>
         </div>
@@ -47,7 +47,7 @@
             <h5 class="card-title">Beach Club Jobs</h5>
             <p
               class="card-text"
-            >Ski or Snowboard on your downtime, every day? Work in the Alps this winter</p>
+            >Beach, Sun, Sea, Watersports – think of those Insta pics! Join us in Greece this summer</p>
             <a href="/beach-club-jobs" class="btn btn-primary">View Beach Club Jobs</a>
           </div>
         </div>
@@ -64,7 +64,7 @@
             <h5 class="card-title">Office Jobs</h5>
             <p
               class="card-text"
-            >Ski or Snowboard on your downtime, every day? Work in the Alps this winter</p>
+            >We’re passionate about travel, being active and our guests. Come join our fun team!</p>
             <a href="/office-jobs" class="btn btn-primary">View Office Jobs</a>
           </div>
         </div>

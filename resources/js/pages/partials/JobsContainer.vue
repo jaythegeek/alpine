@@ -3,7 +3,7 @@
     <div class="container my-5">
       <div class="row mb-3 text-center">
         <div class="col">
-          <h1 class="text-capitalize">{{ (type == 'beach') ? type + ' Club' : type }} Jobs with Alpine Elements</h1>
+          <h1 class="text-capitalize">{{ (type == 'beach') ? type + ' Club' : type }} Jobs with {{ type == 'beach' ? 'Ocean' : 'Alpine' }} Elements</h1>
           <hr width="50%" align="center">
         </div>
       </div>

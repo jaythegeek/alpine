@@ -39669,7 +39669,9 @@ var staticRenderFns = [
                         ]),
                         _vm._v(" "),
                         _c("p", { staticClass: "text-dark mb-0" }, [
-                          _vm._v("Winter jobs stuff")
+                          _vm._v(
+                            "Ski or Snowboard on your downtime, every day? Work in the Alps this winter"
+                          )
                         ])
                       ]
                     )
@@ -40289,7 +40291,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("p", { staticClass: "card-text" }, [
                 _vm._v(
-                  "Ski or Snowboard on your downtime, every day? Work in the Alps this winter"
+                  "The thrill of a downhill bike trail or a lazy day off by the lake? Join us in the alps this summer"
                 )
               ]),
               _vm._v(" "),
@@ -40322,7 +40324,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("p", { staticClass: "card-text" }, [
                 _vm._v(
-                  "Ski or Snowboard on your downtime, every day? Work in the Alps this winter"
+                  "Beach, Sun, Sea, Watersports – think of those Insta pics! Join us in Greece this summer"
                 )
               ]),
               _vm._v(" "),
@@ -40353,7 +40355,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("p", { staticClass: "card-text" }, [
                 _vm._v(
-                  "Ski or Snowboard on your downtime, every day? Work in the Alps this winter"
+                  "We’re passionate about travel, being active and our guests. Come join our fun team!"
                 )
               ]),
               _vm._v(" "),
@@ -40403,7 +40405,9 @@ var render = function() {
             _c("h1", { staticClass: "text-capitalize" }, [
               _vm._v(
                 _vm._s(_vm.type == "beach" ? _vm.type + " Club" : _vm.type) +
-                  " Jobs with Alpine Elements"
+                  " Jobs with " +
+                  _vm._s(_vm.type == "beach" ? "Ocean" : "Alpine") +
+                  " Elements"
               )
             ]),
             _vm._v(" "),
