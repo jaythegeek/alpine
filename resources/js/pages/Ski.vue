@@ -45,6 +45,22 @@
         </a>
       </div>
     </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <div class="card border-0 bg-light">
+            <div class="card-body text-center p-3">
+              <h2 class="mb-3">Be in your element!</h2>
+              <p>Our first love is the snow of the French and Austrian Alps. For more than 20 years we have been providing guests and staff with the opportunity to work and holiday in some of the top destinations in Europe.</p>
+              <p>Are you a speed freak, bombing down every piste? A park rat homing in on that new trick? Or the adventurous explorer looking for fresh tracks and waist deep snow; we have the resorts and positions that suit all ranges.</p>
+              <p>Most of us here in the office started out with a winter season (What else is there to do after Uni?!) For us it is the ultimate must-do experience and where you will find us in our element.</p>
+              <p><i>Come and find yours!</i></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <jobs-container :type="'ski'"></jobs-container>
     <job-page-links></job-page-links>
     <div class="container">

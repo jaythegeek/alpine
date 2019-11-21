@@ -1973,6 +1973,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -1994,6 +2013,28 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _partials_JobPageLinks__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./partials/JobPageLinks */ "./resources/js/pages/partials/JobPageLinks.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2544,6 +2585,22 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -2625,6 +2682,28 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -2647,6 +2726,24 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _partials_JobPageLinks__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./partials/JobPageLinks */ "./resources/js/pages/partials/JobPageLinks.vue");
 /* harmony import */ var _partials_JobsContainer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./partials/JobsContainer */ "./resources/js/pages/partials/JobsContainer.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -38380,11 +38477,13 @@ var render = function() {
     [
       _vm._m(0),
       _vm._v(" "),
+      _vm._m(1),
+      _vm._v(" "),
       _c("jobs-container", { attrs: { type: "beach" } }),
       _vm._v(" "),
       _c("job-page-links"),
       _vm._v(" "),
-      _vm._m(1)
+      _vm._m(2)
     ],
     1
   )
@@ -38454,7 +38553,9 @@ var staticRenderFns = [
                         ]),
                         _vm._v(" "),
                         _c("p", { staticClass: "text-dark mb-0" }, [
-                          _vm._v("Beach club listings")
+                          _vm._v(
+                            "Beach, Sun, Sea, Watersports – think of those Insta pics! Join us in Greece this summer"
+                          )
                         ])
                       ]
                     )
@@ -38511,6 +38612,34 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container mt-5" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-md-8 mx-auto" }, [
+          _c("div", { staticClass: "card border-0 bg-light" }, [
+            _c("div", { staticClass: "card-body text-center p-3" }, [
+              _c("p", [
+                _vm._v(
+                  "Here at Ocean Elements we like to stay active all year round, once our winter program finishes, we don our bathing suits and head out to Greece for sun, sea and a whole heap of water sports and land-based activities."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "We are looking for active people who are in their element by the beach and ocean. Whether delivering excellent customer service and food to fuel all those activities, providing top-class tuition on the ocean or ensuring children have a holiday of a lifetime; we have job roles that suit all experiences and qualifications."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [_vm._v("We’re in our element in the summer, are you?")])
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row mt-5" }, [
         _c("div", { staticClass: "col text-center" }, [
@@ -38547,7 +38676,15 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    [_vm._m(0), _vm._v(" "), _vm._m(1), _vm._v(" "), _c("job-page-links")],
+    [
+      _vm._m(0),
+      _vm._v(" "),
+      _vm._m(1),
+      _vm._v(" "),
+      _vm._m(2),
+      _vm._v(" "),
+      _c("job-page-links")
+    ],
     1
   )
 }
@@ -38751,6 +38888,56 @@ var staticRenderFns = [
           )
         ]
       )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container mt-5" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-md-10 mx-auto" }, [
+          _c("div", { staticClass: "card border-0 bg-light" }, [
+            _c("div", { staticClass: "card-body text-center p-3" }, [
+              _c("h1", { staticClass: "mb-4 text-danger" }, [
+                _vm._v("Challenging you to find your element!")
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "We employ 200 staff in each of the seasons which gives Alpine and Ocean Elements a unique advantage in offering our entire staff the opportunity to experience back to back seasonal positions that can offer am exciting gap year, career progression or a one off seasonal experience that fits in with your future plans. Join us and work a season back to back over summer and winter."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "We are an active company and we whole heartedly encourage our staff to get involved so if you are new to skiing, snowboarding or watersports, you will find a home in France, Austria or Greece with many of our general positions."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Seasoned pros, qualified instructors and managers will find an encouraging environment in a company where we actively look to promote from within and can offer career opportunities in travel both Overseas and in the UK."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Our recruitment process is designed to see the person behind the CV. Our personal approach enables us to achieve your goal of working a season (and making the most of that season) and our new shared goal of delivering excellent guest service."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _c("i", [
+                  _vm._v(
+                    "Together we will ensure you will find & be in your element."
+                  )
+                ])
+              ])
+            ])
+          ])
+        ])
+      ])
     ])
   },
   function() {
@@ -39059,7 +39246,7 @@ var staticRenderFns = [
                         _vm._v(" "),
                         _c("p", { staticClass: "text-dark mb-0" }, [
                           _vm._v(
-                            "Helping to find out which role would suit you best!"
+                            "We’re passionate about travel, being active and our guests.  We’re always looking for creative, like-minded people to join our team."
                           )
                         ])
                       ]
@@ -39406,11 +39593,13 @@ var render = function() {
     [
       _vm._m(0),
       _vm._v(" "),
+      _vm._m(1),
+      _vm._v(" "),
       _c("jobs-container", { attrs: { type: "ski" } }),
       _vm._v(" "),
       _c("job-page-links"),
       _vm._v(" "),
-      _vm._m(1)
+      _vm._m(2)
     ],
     1
   )
@@ -39537,6 +39726,44 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container mt-5" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-md-8 mx-auto" }, [
+          _c("div", { staticClass: "card border-0 bg-light" }, [
+            _c("div", { staticClass: "card-body text-center p-3" }, [
+              _c("h2", { staticClass: "mb-3" }, [
+                _vm._v("Be in your element!")
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Our first love is the snow of the French and Austrian Alps. For more than 20 years we have been providing guests and staff with the opportunity to work and holiday in some of the top destinations in Europe."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Are you a speed freak, bombing down every piste? A park rat homing in on that new trick? Or the adventurous explorer looking for fresh tracks and waist deep snow; we have the resorts and positions that suit all ranges."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Most of us here in the office started out with a winter season (What else is there to do after Uni?!) For us it is the ultimate must-do experience and where you will find us in our element."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [_c("i", [_vm._v("Come and find yours!")])])
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row mt-5" }, [
         _c("div", { staticClass: "col text-center" }, [
@@ -39577,11 +39804,13 @@ var render = function() {
     [
       _vm._m(0),
       _vm._v(" "),
+      _vm._m(1),
+      _vm._v(" "),
       _c("jobs-container", { attrs: { type: "summer" } }),
       _vm._v(" "),
       _c("job-page-links"),
       _vm._v(" "),
-      _vm._m(1)
+      _vm._m(2)
     ],
     1
   )
@@ -39647,11 +39876,13 @@ var staticRenderFns = [
                       },
                       [
                         _c("h1", { staticClass: "h2 mb-0" }, [
-                          _vm._v("Summer Jobs in the Alps")
+                          _vm._v("Summer Jobs")
                         ]),
                         _vm._v(" "),
                         _c("p", { staticClass: "text-dark mb-0" }, [
-                          _vm._v("Summer jobs listings")
+                          _vm._v(
+                            "The thrill of a downhill bike trail or a lazy day off by the lake? Join us in the alps this summer"
+                          )
                         ])
                       ]
                     )
@@ -39708,6 +39939,48 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container mt-5" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-md-8 mx-auto" }, [
+          _c("div", { staticClass: "card border-0 bg-light" }, [
+            _c("div", { staticClass: "card-body text-center p-3" }, [
+              _c("h2", { staticClass: "mb-3" }, [
+                _vm._v("Winter is coming…until its not!")
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  " Summer is always around the corner. The days get longer and the alps thaw turning the mountains in to a playground of adventure and activities."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "What better day off than having the choice of white-water rafting, downhill mountain biking or Via Ferrata – the thrill seeker in you will love what the summer alps has to offer."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "For those that like to take their days off at a steady pace; a round of golf, a swim in the lake or a walk in the mountains offers the chance for your own type of adventure."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Explore all the alps has to offer, we offer employment in France practically all year round so you can be in your element any time!"
+                )
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row mt-5" }, [
         _c("div", { staticClass: "col text-center" }, [
@@ -39748,11 +40021,13 @@ var render = function() {
     [
       _vm._m(0),
       _vm._v(" "),
+      _vm._m(1),
+      _vm._v(" "),
       _c("jobs-container", { attrs: { type: "yacht" } }),
       _vm._v(" "),
       _c("job-page-links"),
       _vm._v(" "),
-      _vm._m(1)
+      _vm._m(2)
     ],
     1
   )
@@ -39819,6 +40094,12 @@ var staticRenderFns = [
                       [
                         _c("h1", { staticClass: "h2 mb-0" }, [
                           _vm._v("Yacht & Boating Jobs")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", { staticClass: "text-dark mb-0" }, [
+                          _vm._v(
+                            "Weekly trips around the Ionian? Join our expanding yacht program and share your passion for the sea"
+                          )
                         ])
                       ]
                     )
@@ -39869,6 +40150,42 @@ var staticRenderFns = [
           )
         ]
       )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container mt-5" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-md-8 mx-auto" }, [
+          _c("div", { staticClass: "card border-0 bg-light" }, [
+            _c("div", { staticClass: "card-body text-center p-3" }, [
+              _c("h2", { staticClass: "mb-3" }, [
+                _vm._v("Be on the water and in your element!")
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Our expanding yacht program provides the perfect opportunity to put your hard-earned qualifications to use by sailing weekly around the Ionian Seas on a variety of routes."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Whether your passion is to teach, sail or provide an intimate, tailored hosting experience – our challenge to you is to provide a fun and relaxed atmosphere for everyone aboard."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _c("i", [
+                  _vm._v("We’re in our element on the water. You can be too!")
+                ])
+              ])
+            ])
+          ])
+        ])
+      ])
     ])
   },
   function() {
@@ -40081,7 +40398,7 @@ var render = function() {
       "div",
       { staticClass: "container my-5" },
       [
-        _c("div", { staticClass: "row mb-3" }, [
+        _c("div", { staticClass: "row mb-3 text-center" }, [
           _c("div", { staticClass: "col" }, [
             _c("h1", { staticClass: "text-capitalize" }, [
               _vm._v(
@@ -40090,7 +40407,7 @@ var render = function() {
               )
             ]),
             _vm._v(" "),
-            _c("hr", { attrs: { width: "50%", align: "left" } })
+            _c("hr", { attrs: { width: "50%", align: "center" } })
           ])
         ]),
         _vm._v(" "),
@@ -53196,8 +53513,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/jaythegeek/code/projects/personal/alpine/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/jaythegeek/code/projects/personal/alpine/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/jaythegeek/code/personal/alpine/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/jaythegeek/code/personal/alpine/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

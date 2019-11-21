@@ -22,7 +22,7 @@
                     style="background: rgba(255,255,255,06); border-radius: 1rem"
                   >
                     <h1 class="h2 mb-0">Office Jobs</h1>
-                    <p class="text-dark mb-0">Helping to find out which role would suit you best!</p>
+                    <p class="text-dark mb-0">We’re passionate about travel, being active and our guests.  We’re always looking for creative, like-minded people to join our team.</p>
                   </div>
                 </div>
               </div>

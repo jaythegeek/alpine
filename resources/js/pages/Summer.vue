@@ -17,8 +17,10 @@
                     class="p-3 text-danger"
                     style="background: rgba(255,255,255,06); border-radius: 1rem"
                   >
-                    <h1 class="h2 mb-0">Summer Jobs in the Alps</h1>
-                    <p class="text-dark mb-0">Summer jobs listings</p>
+                    <h1 class="h2 mb-0">Summer Jobs</h1>
+                    <p
+                      class="text-dark mb-0"
+                    >The thrill of a downhill bike trail or a lazy day off by the lake? Join us in the alps this summer</p>
                   </div>
                 </div>
               </div>
@@ -45,6 +47,26 @@
         </a>
       </div>
     </div>
+
+    <!--  -->
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <div class="card border-0 bg-light">
+            <div class="card-body text-center p-3">
+              <h2 class="mb-3">Winter is coming…until its not!</h2>
+              <p> Summer is always around the corner. The days get longer and the alps thaw turning the mountains in to a playground of adventure and activities.</p>
+              <p>What better day off than having the choice of white-water rafting, downhill mountain biking or Via Ferrata – the thrill seeker in you will love what the summer alps has to offer.</p>
+              <p>For those that like to take their days off at a steady pace; a round of golf, a swim in the lake or a walk in the mountains offers the chance for your own type of adventure.</p>
+              <p>Explore all the alps has to offer, we offer employment in France practically all year round so you can be in your element any time!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  -->
     <jobs-container :type="'summer'"></jobs-container>
     <job-page-links></job-page-links>
     <div class="container">
@@ -58,13 +80,13 @@
 </template>
 
 <script>
-import JobPageLinks from "./partials/JobPageLinks"
-import JobsContainer from "./partials/JobsContainer"
+import JobPageLinks from "./partials/JobPageLinks";
+import JobsContainer from "./partials/JobsContainer";
 export default {
-    components: {
-        JobPageLinks,
-        JobsContainer
-    }
+  components: {
+    JobPageLinks,
+    JobsContainer
+  }
 };
 </script>
 

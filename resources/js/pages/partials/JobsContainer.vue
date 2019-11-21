@@ -1,10 +1,10 @@
 <template>
   <div class="jobs-container">
     <div class="container my-5">
-      <div class="row mb-3">
+      <div class="row mb-3 text-center">
         <div class="col">
           <h1 class="text-capitalize">{{ (type == 'beach') ? type + ' Club' : type }} Jobs with Alpine Elements</h1>
-          <hr width="50%" align="left">
+          <hr width="50%" align="center">
         </div>
       </div>
       <div class="row" v-if="busy">

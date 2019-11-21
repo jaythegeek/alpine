@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-black shadow-sm">
-    <div class="container py-4">
-        <a class="navbar-brand" href="{{ url('/') }}">
-            <div class="logo-fade-container">
+    <div class="container-fluid py-4">
+        <a class="navbar-brand ml-md-5" href="{{ url('/') }}">
+            <div class="logo-fade-container ml-md-4">
                 <div class="fadein">
 
                     <img id="logo-2" src="/images/ocean-white.png" alt="Alpine Elements Careers">
@@ -47,8 +47,9 @@
                     <a class="nav-link text-white text-uppercase" href="/office-jobs">Office Jobs</a>
                 </li>
 
+
                 <li class="nav-item mr-3">
-                    <a class="nav-link text-white text-uppercase" href="/login">Blog</a>
+                    <a class="nav-btn btn btn-primary text-uppercase" href="https://twitter.com/alpineelements">#beinyourelement</a>
                 </li>
 
 
