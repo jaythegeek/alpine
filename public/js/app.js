@@ -39665,7 +39665,7 @@ var staticRenderFns = [
                       },
                       [
                         _c("h1", { staticClass: "h2 mb-0" }, [
-                          _vm._v("Winter Jobs 2020/2021")
+                          _vm._v("Winter Jobs")
                         ]),
                         _vm._v(" "),
                         _c("p", { staticClass: "text-dark mb-0" }, [
