@@ -27063,6 +27063,12 @@ readers do not read off random characters that represent icons */
   width: auto;
 }
 
+@media (min-width: 540px) {
+  p {
+    font-size: 1.2rem !important;
+  }
+}
+
 .bg-black {
   background: #000;
   color: #fff;
