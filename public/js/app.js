@@ -38837,7 +38837,7 @@ var staticRenderFns = [
                       },
                       [
                         _c("h1", { staticClass: "h2 mb-0" }, [
-                          _vm._v("Winter Jobs in the Alps 2020/2021")
+                          _vm._v("Winter Jobs in the Alps")
                         ])
                       ]
                     )
@@ -38905,7 +38905,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("p", [
                 _vm._v(
-                  "We employ 200 staff in each of the seasons which gives Alpine and Ocean Elements a unique advantage in offering our entire staff the opportunity to experience back to back seasonal positions that can offer am exciting gap year, career progression or a one off seasonal experience that fits in with your future plans. Join us and work a season back to back over summer and winter."
+                  "We employ 200 staff in each of the seasons which gives Alpine and Ocean Elements a unique advantage in offering our entire staff the opportunity to experience back to back seasonal positions that can offer an exciting gap year, career progression or a one off seasonal experience that fits in with your future plans. Join us and work a season back to back over summer and winter."
                 )
               ]),
               _vm._v(" "),
@@ -40095,7 +40095,7 @@ var staticRenderFns = [
                       },
                       [
                         _c("h1", { staticClass: "h2 mb-0" }, [
-                          _vm._v("Yacht & Boating Jobs")
+                          _vm._v("Yacht Jobs")
                         ]),
                         _vm._v(" "),
                         _c("p", { staticClass: "text-dark mb-0" }, [
@@ -53517,8 +53517,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/jaythegeek/code/personal/alpine/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/jaythegeek/code/personal/alpine/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/jaythegeek/code/projects/personal/alpine/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/jaythegeek/code/projects/personal/alpine/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

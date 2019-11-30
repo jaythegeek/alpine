@@ -58,7 +58,7 @@
                     class="p-3 text-danger"
                     style="background: rgba(255,255,255,06); border-radius: 1rem"
                   >
-                    <h1 class="h2 mb-0">Winter Jobs in the Alps 2020/2021</h1>
+                    <h1 class="h2 mb-0">Winter Jobs in the Alps</h1>
                   </div>
                 </div>
               </div>
@@ -95,7 +95,7 @@
             <div class="card-body text-center p-3">
               <h1 class="mb-4 text-danger">Challenging you to find your element!</h1>
 
-              <p>We employ 200 staff in each of the seasons which gives Alpine and Ocean Elements a unique advantage in offering our entire staff the opportunity to experience back to back seasonal positions that can offer am exciting gap year, career progression or a one off seasonal experience that fits in with your future plans. Join us and work a season back to back over summer and winter.</p>
+              <p>We employ 200 staff in each of the seasons which gives Alpine and Ocean Elements a unique advantage in offering our entire staff the opportunity to experience back to back seasonal positions that can offer an exciting gap year, career progression or a one off seasonal experience that fits in with your future plans. Join us and work a season back to back over summer and winter.</p>
               <p>We are an active company and we whole heartedly encourage our staff to get involved so if you are new to skiing, snowboarding or watersports, you will find a home in France, Austria or Greece with many of our general positions.</p>
               <p>Seasoned pros, qualified instructors and managers will find an encouraging environment in a company where we actively look to promote from within and can offer career opportunities in travel both Overseas and in the UK.</p>
               <p>Our recruitment process is designed to see the person behind the CV. Our personal approach enables us to achieve your goal of working a season (and making the most of that season) and our new shared goal of delivering excellent guest service.</p>
