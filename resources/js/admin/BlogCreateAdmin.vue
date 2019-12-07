@@ -80,6 +80,7 @@ export default {
         //   maxFilesize: 0.5,
         success: (e, r) => {
           this.form.featured_image_url = r.url;
+          window.location.href = "/posts";
         }
       }
     };
