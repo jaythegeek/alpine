@@ -47,7 +47,7 @@ export default {
   },
   methods: {
     fetchPosts() {
-      window.axios.get("/fetch-posts").then(({ data }) => {
+      window.axios.get("/fetch-admin-posts").then(({ data }) => {
         this.posts = data;
       });
     }

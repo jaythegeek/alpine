@@ -55,7 +55,7 @@ export default {
       window.location.href = "/blog/" + slug;
     },
     fetchPosts() {
-      window.axios.get("/fetch-admin-posts").then(({ data }) => {
+      window.axios.get("/fetch-posts").then(({ data }) => {
         this.posts = data;
       });
     },
