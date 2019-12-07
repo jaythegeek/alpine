@@ -1,5 +1,5 @@
 @extends('layouts.app')
 
 @section('content')
-<blog-index-admin></blog-index-admin>
+<blog-view-admin :post="{{ $post }}"></blog-view-admin>
 @endsection

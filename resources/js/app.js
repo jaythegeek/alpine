@@ -23,6 +23,9 @@ Vue.component('blog-index-admin', require('./admin/BlogIndexAdmin.vue').default)
 Vue.component('blog-view-admin', require('./admin/BlogViewAdmin.vue').default);
 Vue.component('blog-create-admin', require('./admin/BlogCreateAdmin.vue').default);
 
+Vue.component('blog-index', require('./blog/Index.vue').default);
+Vue.component('blog-view', require('./blog/View.vue').default);
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

@@ -53,9 +53,14 @@ Route::get('/blog/{slug}', 'BlogController@viewPost');
 
 
 Route::get('/posts', 'BlogController@indexAdmin');
-Route::get('/fetch-posts', 'BlogController@fetchPostsAdmin');
+Route::get('/fetch-posts', 'BlogController@fetchPosts');
+
+Route::get('/search-posts', 'BlogController@searchPosts');
+
+
 Route::get('/create-post', 'BlogController@createViewAdmin');
 Route::post('/posts', 'BlogController@createAdmin');
+Route::post('/post-image-upload', 'BlogController@postImageUpload');
 Route::get('/posts/{id}', 'BlogController@viewAdmin');
 Route::post('/posts/{id}', 'BlogController@updateAdmin');
 Route::delete('/posts/{id}', 'BlogController@deleteAdmin');

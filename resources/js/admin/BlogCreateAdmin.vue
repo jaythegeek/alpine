@@ -30,6 +30,14 @@
         <text-editor v-model="form.content"></text-editor>
       </div>
     </div>
+
+    <!--  -->
+
+    <div class="row mb-3">
+      <div class="col">
+        <vue-dropzone ref="myVueDropzone" id="dropzone" :options="dropzoneOptions"></vue-dropzone>
+      </div>
+    </div>
     <!--  -->
     <div class="row mb-3">
       <div class="col my-auto">
@@ -52,6 +60,10 @@
 
 <script>
 import { TextEditor } from "@jaythegeek/crmtoolkit";
+
+import vue2Dropzone from "vue2-dropzone";
+import "vue2-dropzone/dist/vue2Dropzone.min.css";
+
 export default {
   data() {
     return {
@@ -59,14 +71,23 @@ export default {
         title: "",
         content: "",
         slug: "",
-        status: "draft"
+        status: "draft",
+        featured_image_url: ""
+      },
+      dropzoneOptions: {
+        url: "/post-image-upload",
+        thumbnailWidth: 300,
+        //   maxFilesize: 0.5,
+        success: (e, r) => {
+          this.form.featured_image_url = r.url;
+        }
       }
     };
   },
   methods: {
     createPost() {
       window.axios.post("/posts", this.form).then(({ data }) => {
-        Bus.$emit("alert", data);
+        // Bus.$emit("alert", data);
       });
     },
     slugify(string) {
@@ -100,7 +121,8 @@ export default {
     }
   },
   components: {
-    TextEditor
+    TextEditor,
+    vueDropzone: vue2Dropzone
   }
 };
 </script>

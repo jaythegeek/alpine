@@ -4,12 +4,13 @@ namespace App\Http\Controllers;
 
 use App\Post;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class BlogController extends Controller
 {
     public function __construct()
     {
-        $this->middleware('auth')->except(['index', 'viewPost']);
+        $this->middleware('auth')->except(['index', 'viewPost', 'fetchPosts', 'searchPosts']);
     }
 
     public function index()
@@ -20,7 +21,12 @@ class BlogController extends Controller
     public function viewPost($slug)
     {
         $post = Post::where('slug', $slug)->first();
-        return view('blog.index')->with('post', $post);
+        if ($post->status == 'published') {
+            return view('blog.view')->with('post', $post);
+        } else {
+            return view('blog.view')->with('post', $post);
+            // return redirect('/blog');
+        }
     }
 
     // Admin stuff
@@ -30,12 +36,24 @@ class BlogController extends Controller
         return view('admin.blog-index');
     }
 
+    public function fetchPosts()
+    {
+        return Post::where('status', 'draft')->get();
+    }
+
+    public function searchPosts(Request $request)
+    {
+        return Post::where('title', 'like', '%' . $request->search . '%')->get();
+    }
+
+
     public function fetchPostsAdmin()
     {
         return Post::all();
     }
 
-    public function createViewAdmin(){
+    public function createViewAdmin()
+    {
         return view('admin.create-blog');
     }
 
@@ -68,5 +86,14 @@ class BlogController extends Controller
         $post->delete();
 
         return response()->json(['message' => 'Blog post deleted!']);
+    }
+
+    public function postImageUpload(Request $request)
+    {
+        $storedFile = Storage::put('public/blog-images', $request->file);
+
+        $url = Storage::url($storedFile);
+
+        return response()->json(['url' => $url]);
     }
 }
