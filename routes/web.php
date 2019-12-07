@@ -54,7 +54,7 @@ Route::get('/blog/{slug}', 'BlogController@viewPost');
 
 Route::get('/posts', 'BlogController@indexAdmin');
 Route::get('/fetch-posts', 'BlogController@fetchPosts');
-Route::get('/fetch-posts-admin', 'BlogController@fetchPostsAdmin');
+Route::get('/fetch-admin-posts', 'BlogController@fetchPostsAdmin');
 
 Route::get('/search-posts', 'BlogController@searchPosts');
 
