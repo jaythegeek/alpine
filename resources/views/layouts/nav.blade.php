@@ -49,7 +49,8 @@
 
 
                 <li class="nav-item mr-3">
-                    <a class="nav-btn btn btn-primary text-uppercase" href="https://twitter.com/alpineelements">#beinyourelement</a>
+                    <a class="nav-btn btn btn-primary text-uppercase"
+                        href="https://twitter.com/alpineelements">#beinyourelement</a>
                 </li>
 
 
@@ -59,6 +60,10 @@
                 </li>
                 @endif --}}
                 @else
+                <li class="nav-item mr-3">
+                    <a class="nav-link text-white text-uppercase" href="/posts">Blog Posts</a>
+                </li>
+
                 <li class="nav-item dropdown mr-3">
                     <a id="navbarDropdown" class="nav-link text-white text-uppercase dropdown-toggle" href="#"
                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>

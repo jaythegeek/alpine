@@ -44,4 +44,18 @@ Route::get('/jobs', function () {
 
 Auth::routes();
 
+Route::get('/home', 'HomeController@index');
+
 Route::get('/fetch-jobs', 'HomeController@fetchJobs');
+
+Route::get('/blog', 'BlogController@index');
+Route::get('/blog/{slug}', 'BlogController@viewPost');
+
+
+Route::get('/posts', 'BlogController@indexAdmin');
+Route::get('/fetch-posts', 'BlogController@fetchPostsAdmin');
+Route::get('/create-post', 'BlogController@createViewAdmin');
+Route::post('/posts', 'BlogController@createAdmin');
+Route::get('/posts/{id}', 'BlogController@viewAdmin');
+Route::post('/posts/{id}', 'BlogController@updateAdmin');
+Route::delete('/posts/{id}', 'BlogController@deleteAdmin');
