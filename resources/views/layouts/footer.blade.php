@@ -16,7 +16,7 @@
             <div class="col-md-3">
                 <ul class="list-unstyled">
                     <li class="mb-2">
-                        <a class="text-white font-weight-bold" href="{{ route('login') }}">Blog</a>
+                        <a class="text-white font-weight-bold" href="/blog">Blog</a>
                     </li>
 
                     <li class="mb-2">

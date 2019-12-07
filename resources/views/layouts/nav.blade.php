@@ -26,31 +26,35 @@
                 <!-- Authentication Links -->
                 @guest
                 <li class="nav-item mr-3">
-                    <a class="nav-link text-white text-uppercase" href="/ski-jobs">Winter Ski Jobs</a>
+                    <a class="nav-link text-white text-uppercase" href="/ski-jobs">Winter Ski</a>
                 </li>
 
                 <li class="nav-item mr-3">
-                    <a class="nav-link text-white text-uppercase" href="/beach-club-jobs">Beach Club Jobs</a>
+                    <a class="nav-link text-white text-uppercase" href="/beach-club-jobs">Beach Club</a>
                 </li>
 
                 <li class="nav-item mr-3">
-                    <a class="nav-link text-white text-uppercase" href="/summer-jobs">Summer Alps Jobs</a>
+                    <a class="nav-link text-white text-uppercase" href="/summer-jobs">Summer Alps</a>
                 </li>
 
 
 
                 <li class="nav-item mr-3">
-                    <a class="nav-link text-white text-uppercase" href="/yacht-jobs">Yacht Jobs</a>
+                    <a class="nav-link text-white text-uppercase" href="/yacht-jobs">Yacht</a>
                 </li>
 
                 <li class="nav-item mr-3">
-                    <a class="nav-link text-white text-uppercase" href="/office-jobs">Office Jobs</a>
+                    <a class="nav-link text-white text-uppercase" href="/office-jobs">Office</a>
                 </li>
 
 
                 <li class="nav-item mr-3">
                     <a class="nav-btn btn btn-primary text-uppercase"
                         href="https://twitter.com/alpineelements">#beinyourelement</a>
+                </li>
+
+                <li class="nav-item mr-3">
+                    <a class="nav-link text-white text-uppercase" href="/blog">Blog</a>
                 </li>
 
 
