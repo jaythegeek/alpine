@@ -38,7 +38,7 @@ class BlogController extends Controller
 
     public function fetchPosts()
     {
-        return Post::where('status', 'draft')->get();
+        return Post::where('status', 'published')->get();
     }
 
     public function searchPosts(Request $request)
