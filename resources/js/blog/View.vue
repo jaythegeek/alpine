@@ -4,7 +4,7 @@
       <div class="col-md-9">
         <div class="row mb-3">
           <div class="col">
-            <h1 class="mb-2">{{ post.title }}</h1>
+            <h1 class="h2 mb-2">{{ post.title }}</h1>
             <hr />
           </div>
         </div>
