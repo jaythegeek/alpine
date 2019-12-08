@@ -80,7 +80,6 @@ export default {
         //   maxFilesize: 0.5,
         success: (e, r) => {
           this.form.featured_image_url = r.url;
-          window.location.href = "/posts";
         }
       }
     };
@@ -89,6 +88,7 @@ export default {
     createPost() {
       window.axios.post("/posts", this.form).then(({ data }) => {
         // Bus.$emit("alert", data);
+        window.location.href = "/posts";
       });
     },
     slugify(string) {

@@ -23,10 +23,18 @@
                 <h4 class="mb-0">{{ p.title }}</h4>
               </div>
               <div class="col-auto ml-auto my-auto">
-                <a :href="'/posts/' + p.id" class="btn btn-light btn-sm mr-3">
+                <span class="badge badge-light">
+                  <p class="text-capitalize"><small>Status: {{ p.status }}</small></p>
+                </span>
+              </div>
+              <div class="col-auto ml-auto my-auto">
+                <a :href="'/posts/' + p.id" class="btn btn-dark btn-sm mr-3">
                   <i class="fad fa-edit"></i>
                 </a>
-                <a :href="'/blog/' + p.slug" target="_blank" class="btn btn-light btn-sm">
+                <button @click="deletePost(p)" class="btn btn-danger btn-sm mr-3">
+                  <i class="fad fa-trash"></i>
+                </button>
+                <a :href="'/blog/' + p.slug" target="_blank" class="btn btn-info btn-sm">
                   <i class="fad fa-external-link"></i>
                 </a>
               </div>
@@ -50,6 +58,17 @@ export default {
       window.axios.get("/fetch-admin-posts").then(({ data }) => {
         this.posts = data;
       });
+    },
+    deletePost(p) {
+      if (
+        confirm(
+          "Are you sure you wish to delete this blog post, this action cannot be undone?!"
+        )
+      ) {
+        window.axios.delete("/posts/" + p.id).then(({ data }) => {
+          this.fetchPosts();
+        });
+      }
     }
   },
   mounted() {
