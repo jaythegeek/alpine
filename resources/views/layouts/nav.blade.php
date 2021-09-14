@@ -26,6 +26,9 @@
                 <!-- Authentication Links -->
                 @guest
                 <li class="nav-item mr-3">
+                    <a class="nav-link text-white text-uppercase" href="/work-eu">Working in the EU post Brexit</a>
+                </li>
+                <li class="nav-item mr-3">
                     <a class="nav-link text-white text-uppercase" href="/ski-jobs">Winter Ski</a>
                 </li>
 

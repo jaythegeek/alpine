@@ -42,6 +42,10 @@ Route::get('/jobs', function () {
     return view('pages.jobs');
 });
 
+Route::get('/work-eu', function () {
+    return view('pages.work-eu');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');

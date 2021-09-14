@@ -17,11 +17,11 @@
                     class="p-3 text-danger"
                     style="background: rgba(255,255,255,06); border-radius: 1rem"
                   >
-                    <h1 class="h2 mb-0">Winter Jobs</h1>
+                    <h1 class="h2 mb-0">Winter Jobs - 2021 Opening soon</h1>
                     <p class="text-dark mb-0">Ski or Snowboard on your downtime, every day? Work in the Alps this winter</p>
                   </div>
                 </div>
-              </div>
+              </div> 
             </div>
           </div>
         </div>
