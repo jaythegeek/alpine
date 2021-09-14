@@ -17,7 +17,7 @@
                     class="p-3 text-danger"
                     style="background: rgba(255,255,255,06); border-radius: 1rem"
                   >
-                    <h1 class="h2 mb-0">Summer Jobs</h1>
+                    <h1 class="h2 mb-0">Summer Jobs - We currently have no vacancies</h1>
                     <p
                       class="text-dark mb-0"
                     >The thrill of a downhill bike trail or a lazy day off by the lake? Join us in the alps this summer</p>

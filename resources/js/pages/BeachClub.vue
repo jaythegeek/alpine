@@ -17,7 +17,7 @@
                     class="p-3 text-danger"
                     style="background: rgba(255,255,255,06); border-radius: 1rem"
                   >
-                    <h1 class="h2 mb-0">Beach Club Jobs</h1>
+                    <h1 class="h2 mb-0">Beach Club Jobs - We are not currently recruiting for summer 2021</h1>
                     <p
                       class="text-dark mb-0"
                     >Beach, Sun, Sea, Watersports – think of those Insta pics! Join us in Greece this summer</p>

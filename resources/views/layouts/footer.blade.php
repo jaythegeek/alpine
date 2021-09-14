@@ -3,16 +3,13 @@
         <div class="row">
             <div class="col-md-3">
                 <ul class="list-unstyled">
-                    <li class="mb-2">
-                        <a class="text-white font-weight-bold"
-                            href="{{ route('login') }}">{{ __('Candidate Login') }}</a>
-                    </li>
+                    
                     <li class="mb-2">
                         <a class="text-white font-weight-bold" href="{{ route('login') }}">{{ __('Staff Login') }}</a>
                     </li>
                 </ul>
             </div>
-
+<!-- 
             <div class="col-md-3">
                 <ul class="list-unstyled">
                     <li class="mb-2">
@@ -32,10 +29,10 @@
                     </li>
                 </ul>
             </div>
-
-            <div class="col-md-3 text-white">
+-->
+            <div class="col-md-3 text-white ml-auto">
                 <p>CONTACT HR & RECRUITMENT</p>
-                <p>Alpine Elements Group Ltd, York Court, Alt Grove, Wimbledon, SW19 4DZ</p>
+                <p>iGo Ski Ltd, 7 Bell Yard, London, WC2A 2JR</p>
 
                 <h6>Office Hours</h6>
                 <ul class="list-unstyled">
